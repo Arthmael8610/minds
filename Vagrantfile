@@ -49,9 +49,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     end
   end
 
+config.vm.provider :virtualbox do |vm|
+    vm.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/vagrant", "1"]
+end
+
   config.vm.hostname = "minds"
 
-  config.vm.synced_folder ".", "/var/www/Minds", type: "nfs"
+  config.vm.synced_folder ".", "/var/www/Minds"
 
   config.vm.box = "ubuntu/trusty64"
   config.vm.network :private_network, ip: "10.54.0.111"
