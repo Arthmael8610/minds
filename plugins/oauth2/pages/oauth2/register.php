@@ -6,8 +6,8 @@
  * https://tools.ietf.org/html/draft-ietf-oauth-v2-30#section-2
  *
  * @author Billy Gunn (billy@arckinteractive.com)
- * @copyright Minds.com 2013
- * @link http://minds.com
+ * @copyright planetconcourse.world 2013
+ * @link http://planetconcourse.world
  */
 
 $entity = null;

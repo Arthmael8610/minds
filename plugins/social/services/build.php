@@ -5,7 +5,7 @@
 
 namespace minds\plugin\social\services;
 
-use Minds\Components;
+use planetconcourse.worldponents;
 use Minds\Core;
 
 class build extends Components\Plugin

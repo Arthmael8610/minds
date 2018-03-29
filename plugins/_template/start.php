@@ -7,7 +7,7 @@
 namespace Minds\Plugin\{{plugin.name}};
 
 use Minds\Core;
-use Minds\Components;
+use planetconcourse.worldponents;
 use Minds\Api;
 
 class start extends Components\Plugin

@@ -4,8 +4,8 @@
  * oauth2_client object view
  *
  * @author Billy Gunn (billy@arckinteractive.com)
- * @copyright Minds.com 2013
- * @link http://minds.com
+ * @copyright planetconcourse.world 2013
+ * @link http://planetconcourse.world
  */
 
 $full = elgg_extract('full_view', $vars, false);

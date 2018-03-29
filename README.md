@@ -1,6 +1,6 @@
 Minds
 =====
-Minds is an open-source, encrypted and reward-based social networking platform. https://minds.com
+Minds is an open-source, encrypted and reward-based social networking platform. https://planetconcourse.world
 
 ## Repositories
 Minds is split into multiple components:
@@ -37,10 +37,10 @@ The Docker environment is currently a work in progress and we intend on streamli
 3. Run `docker exec -it CONTAINER_ID_HERE php /var/www/Minds/engine/cli.php install --graceful-storage-provision --domain=dev.minds.io --username=minds     --password=password --email=minds@dev.minds.io --private-key=/.dev/minds.pem --public-key=/.dev/minds.pub --cassandra-server=cassandra`
 
 ## Contributing
-If you'd like to contribute to the Minds project, check out the [Contribution](https://www.minds.org/docs/contributing.html) section of Minds.org or head right over to the [Minds Open Source Community](https://www.minds.com/groups/profile/365903183068794880).  If you've found or fixed a bug, let us know in the [Minds Help and Support Group](https://www.minds.com/groups/profile/100000000000000681/activity)!
+If you'd like to contribute to the Minds project, check out the [Contribution](https://www.minds.org/docs/contributing.html) section of Minds.org or head right over to the [Minds Open Source Community](https://www.planetconcourse.world/groups/profile/365903183068794880).  If you've found or fixed a bug, let us know in the [Minds Help and Support Group](https://www.planetconcourse.world/groups/profile/100000000000000681/activity)!
 
 ## Security reports
-Please report all security issues to [security@minds.com](mailto:security@minds.com).
+Please report all security issues to [security@planetconcourse.world](mailto:security@planetconcourse.world).
 
 ## License
 [AGPLv3](https://www.minds.org/docs/license.html). Please see the license file of each repository.

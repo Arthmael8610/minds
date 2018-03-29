@@ -4,8 +4,8 @@
  * Elgg OAuth2 registered applications
  *
  * @author Billy Gunn (billy@arckinteractive.com)
- * @copyright Minds.com 2013
- * @link http://minds.com
+ * @copyright planetconcourse.world 2013
+ * @link http://planetconcourse.world
  */
 elgg_set_context('settings');
 $options = array(
